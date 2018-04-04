@@ -1,0 +1,82 @@
+*{font-family: 'Roboto', sans-serif;}
+h1,h2,h3,h4,h5,h6{color: #ff6f00}
+.logo {
+    text-align: left;
+}
+.logo img {
+    width: 25%;
+    margin: 10px 0;
+}
+.contactArea{
+    background: #666;
+    color: #fff;
+    text-align: right
+}
+.contactColumn{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.mastHead{
+    height: 450px;
+    overflow: hidden;
+    background: #ffc400;
+    color: #000;
+}
+.mastHead h1,.mastHead h2,.mastHead h3,.mastHead h4,.mastHead h5,.mastHead h6{
+    color: #000
+}
+.navigation{
+    background: #ffc400;
+    text-align: right;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.navigation a{
+    color: #000;
+    padding: 5px;
+    border: 2px solid #000;
+}
+.mastHeadImage{
+    background: url("../images/android-device1.png") no-repeat;
+    background-size: cover;
+    background-position: 0 15px;
+}
+ul.srote-badges{
+    list-style: none;
+}
+ul.srote-badges li a, .srote-badges a {
+    display: inline-block;
+    background: url(../images/store-badges-70x245.png) no-repeat 0 0 #fff;
+    width: 245px;
+    height: 70px;
+    border-radius: 4px;
+}
+.srote-badges a.store-ios {
+    background-position: 0 0;
+}
+.srote-badges a.store-android {
+    background-position: 0 -70px;
+}
+.srote-badges a.store-winphone {
+    background-position: 0 -140px;
+}
+footer{
+    color:#fff;
+    background: #666;
+    padding: 10px 0;
+}
+footer .logo img,footer .logo p{
+    margin-left: 10px;
+    display: block;
+}
+footer .logo p{
+    margin-bottom: 0;
+}
+footer a{
+    color: #fff;
+}
+footer h6{
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}

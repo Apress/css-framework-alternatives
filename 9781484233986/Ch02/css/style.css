@@ -1,0 +1,32 @@
+/*CSS for step 1*/
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+/*end of CSS for step 1*/
+/*CSS for step 2*/
+.masthead{
+    background: url("../images/masthead.png") no-repeat center;
+    height: 462px;
+    background-size: cover;
+}
+/*end of CSS for step 2*/
+/*CSS for step 3 and 4*/
+.rewardingContent,.hiredContent,.workEfficiency,.getPaid{
+    margin-top:10px; 
+}
+.rewardingImg,img.hiringImg,.messagingImg,paidImg {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+/*end of CSS for step 3 and 4*/
+/*CSS for final step*/
+.footer{
+    margin-top: 15px;
+    background: #f8f8f8
+}
+/*end of CSS for final step*/
